@@ -16,7 +16,7 @@ public class KmLitro {
                 chilometri = scanner.nextDouble();
                 try {
                     if (chilometri <= 0) {
-                        throw new ZeroException("Il carburante non può essere zero");
+                        throw new ZeroException("Il carburante non può essere zero od un numero negativo");
                     } else {
                         break;
                     }
