@@ -18,7 +18,7 @@ public class ArrayDiNumeri {
             while (true) {
                 if (scanner.hasNextInt()) {
                     choice = Integer.parseInt(scanner.nextLine());
-                    if (choice >= 1 && choice <= 5) {
+                    if (choice >= 1 && choice <= randomNumber.length) {
                         choice -= 1;
                         break;
                     } else if (choice == 0) {

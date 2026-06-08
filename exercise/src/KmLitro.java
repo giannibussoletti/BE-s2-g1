@@ -31,7 +31,6 @@ public class KmLitro {
 
         double carburante = 0.0;
         while (true) {
-
             System.out.println("Quanto carburante hai consumato");
             if (scanner.hasNextDouble()) {
                 carburante = scanner.nextDouble();
