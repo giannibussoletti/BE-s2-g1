@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class ErrorHandling {
+public class ArrayDiNumeri {
     static void main() {
         Scanner scanner = new Scanner(System.in);
         int[] randomNumber = new int[5];

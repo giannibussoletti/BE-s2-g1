@@ -45,7 +45,7 @@ public class Main {
 
         // Essendo findById gestito da una Exception Checked
         // Bisogna gestire l'errore con un try-catch
-        // Se nello stesso blocco di codice t ry { } so che si possono presentare più tipi di eccezione posso optare per multipli catch
+        // Se nello stesso blocco di codice try { } so che si possono presentare più tipi di eccezione posso optare per multipli catch
         // qualora volessi gestire i diversi tipi di eccezione in maniere diverse
         //        try {
         //            Student.findById(10);
@@ -77,6 +77,6 @@ public class Main {
 
     //-------------DEBUGGER----------------------
     // Possiamo creare dei Breakpoints nel codice e vedere cosa succede riga per riga
-    
+
 }
 
