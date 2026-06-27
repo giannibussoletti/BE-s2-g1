@@ -1,4 +1,5 @@
 import entities.Student;
+import exceptions.StudentNotFoundExceptions;
 
 import java.util.Scanner;
 
@@ -47,10 +48,12 @@ public class Main {
         // Bisogna gestire l'errore con un try-catch
         // Se nello stesso blocco di codice try { } so che si possono presentare più tipi di eccezione posso optare per multipli catch
         // qualora volessi gestire i diversi tipi di eccezione in maniere diverse
-        //        try {
-        //            Student.findById(10);
-        //        } catch (StudentNotFoundExceptions e) {
-        //            throw new RuntimeException(e);
+        try {
+            Student.findById(51230);
+        } catch (StudentNotFoundExceptions e) {
+            throw new RuntimeException(e);
+        }
+        System.out.println("ho superato il try");
         //        } catch (ValidationException ex) {
         //            System.out.println(ex.getMessage());
         // ex. printStackTrace();
@@ -79,4 +82,5 @@ public class Main {
     // Possiamo creare dei Breakpoints nel codice e vedere cosa succede riga per riga
 
 }
+
 
